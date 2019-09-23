@@ -1,0 +1,136 @@
+{
+  "_id": "page.orders_relating_to_pensions",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.orders_relating_to_pensions--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--checkbox.auto_name__10",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.orders_relating_to_pensions--checkboxes--checkbox.auto_name__10--number.auto_name__11",
+            "_type": "number",
+            "label": "Percentage shared",
+            "name": "applicant_pension_sharing_percentage"
+          },
+          "label": "Pension sharing",
+          "name": "applicant_pension_sharing"
+        },
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.orders_relating_to_pensions--checkboxes--checkbox.auto_name__12--number.auto_name__13",
+            "_type": "number",
+            "label": "Percentage attached",
+            "name": "applicant_pension_attachment_percentage"
+          },
+          "label": "Pension attachment",
+          "name": "applicant_pension_attachment"
+        },
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.orders_relating_to_pensions--checkboxes--checkbox.auto_name__14--textarea.auto_name__15",
+            "_type": "textarea",
+            "label": "Brief explanation",
+            "name": "applicant_pension_offset_explanation"
+          },
+          "label": "Offset of non-pension capital made to reflect retention of pension",
+          "name": "applicant_pension_offset"
+        }
+      ],
+      "legend": "Orders made or other treatment of applicant’s pension(s)"
+    },
+    {
+      "_id": "page.orders_relating_to_pensions--checkboxes--2",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--2--checkbox.auto_name__10",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.orders_relating_to_pensions--checkboxes--2--checkbox.auto_name__10--number.auto_name__11",
+            "_type": "number",
+            "label": "Percentage shared",
+            "name": "respondent_pension_sharing_percentage"
+          },
+          "label": "Pension sharing",
+          "name": "respondent_pension_sharing"
+        },
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--2--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.orders_relating_to_pensions--checkboxes--2--checkbox.auto_name__12--number.auto_name__13",
+            "_type": "number",
+            "label": "Percentage attached",
+            "name": "respondent_pension_attachment_percentage"
+          },
+          "label": "Pension attachment",
+          "name": "respondent_pension_attachment"
+        },
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--2--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.orders_relating_to_pensions--checkboxes--2--checkbox.auto_name__14--textarea.auto_name__15",
+            "_type": "textarea",
+            "label": "Brief explanation",
+            "name": "respondent_pension_offset_explanation"
+          },
+          "label": "Offset of non-pension capital made to reflect retention of pension",
+          "name": "respondent_pension_offset"
+        }
+      ],
+      "legend": "Orders made or other treatment of respondent’s pension"
+    },
+    {
+      "_id": "page.orders_relating_to_pensions--checkboxes--3",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--3--checkbox.auto_name__10",
+          "_type": "checkbox",
+          "label": "Equality of pension capital",
+          "name": "pension_order_reason_capital_equality"
+        },
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--3--checkbox.auto_name__11",
+          "_type": "checkbox",
+          "label": "Equality of income on retirement from present pension capital",
+          "name": "pension_order_reason_income_equality"
+        },
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--3--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "label": "Departure from equality in recognition that all or part of pension acquired before marriage/civil partnership or after parties’ separation",
+          "name": "pension_order_reason_pension_acquired_before_relationship"
+        },
+        {
+          "_id": "page.orders_relating_to_pensions--checkboxes--3--checkbox.auto_name__13",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.orders_relating_to_pensions--checkboxes--3--checkbox.auto_name__13--textarea.auto_name__14",
+            "_type": "textarea",
+            "label": "Give details",
+            "name": "pension_order_reason_other_details"
+          },
+          "label": "Departure from equality for other reasons",
+          "name": "pension_order_reason_other"
+        }
+      ],
+      "legend": "Please indicate the main reasons justifying the order(s) relating to or other treatment of pension capital (Tick all that apply)"
+    }
+  ],
+  "heading": "Orders in relation to pensions",
+  "show": {
+    "identifier": "are_pensions_involved",
+    "operator": "is",
+    "value": "are_pensions_involved_yes"
+  },
+  "url": "orders_relating_to_pensions"
+}

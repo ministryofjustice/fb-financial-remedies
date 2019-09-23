@@ -26,7 +26,10 @@
     "page.applicant_finances_before_order",
     "page.respondent_finances_before_order",
     "page.non_pension_capital_orders",
-    "page.non_pension_order_details"
+    "page.non_pension_order_details",
+    "page.are_there_pensions",
+    "page.orders_relating_to_pensions",
+    "page.orders_relating_to_income"
   ],
   "url": "/"
 }

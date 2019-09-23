@@ -1,0 +1,27 @@
+{
+  "_id": "page.are_there_pensions",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.are_there_pensions--radios.auto_name__10",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.are_there_pensions--radios.auto_name__10--radio.auto_value__6",
+          "_type": "radio",
+          "label": "Yes",
+          "value": "are_pensions_involved_yes"
+        },
+        {
+          "_id": "page.are_there_pensions--radios.auto_name__10--radio.auto_value__7",
+          "_type": "radio",
+          "label": "No",
+          "value": "are_pensions_involved_no"
+        }
+      ],
+      "legend": "Are there orders relating to pensions in this case other than the basic/New State pension?",
+      "name": "are_pensions_involved"
+    }
+  ],
+  "url": "are_there_pensions"
+}

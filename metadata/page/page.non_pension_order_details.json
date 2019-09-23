@@ -14,10 +14,10 @@
             "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__10--number.auto_name__11",
             "_type": "number",
             "label": "value transferred",
-            "name": "auto_name__11"
+            "name": "capital_orders_in_favour_of_applicant_lump_sum_value"
           },
           "label": "Lump sum order",
-          "name": "auto_name__10"
+          "name": "capital_orders_in_favour_of_applicant_lump_sum"
         },
         {
           "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__12",
@@ -26,10 +26,10 @@
             "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__12--number.auto_name__13",
             "_type": "number",
             "label": "value transferred",
-            "name": "auto_name__13"
+            "name": "capital_orders_in_favour_of_applicant_property_settlement_value"
           },
           "label": "Property transfer order",
-          "name": "auto_name__12"
+          "name": "capital_orders_in_favour_of_applicant_property_transfer"
         },
         {
           "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__14",
@@ -38,10 +38,10 @@
             "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__14--number.auto_name__15",
             "_type": "number",
             "label": "Value of property for the benefit of the applicant",
-            "name": "auto_name__15"
+            "name": "capital_orders_in_favour_of_applicant_property_settlement_value"
           },
           "label": "Property settlement order",
-          "name": "auto_name__14"
+          "name": "capital_orders_in_favour_of_applicant_property_settlement"
         }
       ],
       "legend": "Orders requiring payment/ transfer etc in favour of applicant"
@@ -49,9 +49,101 @@
     {
       "_id": "page.non_pension_order_details--checkboxes--2",
       "_type": "checkboxes",
-      "legend": "Orders requiring payment/ transfer etc in favour of applicant"
+      "items": [
+        {
+          "_id": "page.non_pension_order_details--checkboxes--2--checkbox.auto_name__10",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.non_pension_order_details--checkboxes--2--checkbox.auto_name__10--number.auto_name__12",
+            "_type": "number",
+            "label": "Value transferred",
+            "name": "capital_orders_in_favour_of_respondent_lump_sum_value"
+          },
+          "label": "Lump sum order",
+          "name": "capital_orders_in_favour_of_respondent_lump_sum"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--2--checkbox.auto_name__11",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.non_pension_order_details--checkboxes--2--checkbox.auto_name__11--number.auto_name__13",
+            "_type": "number",
+            "label": "Value transferred",
+            "name": "capital_orders_in_favour_of_respondent_property_transfer_value"
+          },
+          "label": "Property transfer order",
+          "name": "capital_orders_in_favour_of_respondent_property_transfer"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--2--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.non_pension_order_details--checkboxes--2--checkbox.auto_name__14--number.auto_name__15",
+            "_type": "number",
+            "label": "Value of property for the benefit of the respondent",
+            "name": "capital_orders_in_favour_of_respondent_property_settlement_value"
+          },
+          "label": "Property settlement order",
+          "name": "capital_orders_in_favour_of_respondent_property_settlement"
+        }
+      ],
+      "legend": "Orders requiring payment/ transfer etc in favour of respondent"
+    },
+    {
+      "_id": "page.non_pension_order_details--checkboxes--3",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.non_pension_order_details--checkboxes--3--checkbox.auto_name__10",
+          "_type": "checkbox",
+          "label": "Meeting a particular housing or other need",
+          "name": "capital_order_reason_meeting_housing_need"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--3--checkbox.auto_name__11",
+          "_type": "checkbox",
+          "label": "Parties’ different abilities to borrow in order to rehouse",
+          "name": "capital_order_reason_borrowing"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--3--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "label": "Equal division of assets",
+          "name": "capital_order_reason_equal_division"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--3--checkbox.auto_name__13",
+          "_type": "checkbox",
+          "label": "Departing from equality in order to offset pension assets that are not being shared",
+          "name": "capital_order_reason_offset_pension"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--3--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "label": "Departing from equality in recognition of property acquired by one party before the marriage/civil partnership or following the parties’ separation",
+          "name": "capital_order_reason_property_acquired_before_relationship"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--3--checkbox.auto_name__15",
+          "_type": "checkbox",
+          "label": "Departing from equality in recognition of property received by one party as a gift or inheritance",
+          "name": "capital_order_reason_property_acquired_as_gift"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--3--checkbox.auto_name__16",
+          "_type": "checkbox",
+          "label": "Departing from equality in recognition of other factor",
+          "name": "capital_order_reason_other_reason"
+        }
+      ],
+      "legend": "Please indicate the main reasons justifying the order made in relation to non-pension capital (tick all that apply)"
     }
   ],
   "heading": "Orders in relation to non-pension capital",
+  "show": {
+    "identifier": "non_pension_capital_orders",
+    "operator": "is",
+    "value": "non_pension_capital_orders_yes"
+  },
   "url": "non_pension_order_details"
 }
