@@ -20,7 +20,13 @@
     "page.applicant_intended_relationship",
     "page.respondent_date_of_birth",
     "page.respondent_intended_accommodation",
-    "page.respondent_future_relationship"
+    "page.respondent_future_relationship",
+    "page.are_there_any_children",
+    "page.child_details_2",
+    "page.applicant_finances_before_order",
+    "page.respondent_finances_before_order",
+    "page.non_pension_capital_orders",
+    "page.non_pension_order_details"
   ],
   "url": "/"
 }

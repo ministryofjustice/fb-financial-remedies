@@ -1,0 +1,88 @@
+{
+  "_id": "page.child_details_2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.child_details_2--fieldset",
+      "_type": "fieldset",
+      "components": [
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "$field": true,
+          "_id": "page.child_details_2--fieldset--date.auto_name__10",
+          "_type": "date",
+          "label": "Date of birth",
+          "name": "child-DOB"
+        },
+        {
+          "$component": true,
+          "$control": true,
+          "$definition": true,
+          "_id": "page.child_details_2--fieldset--radios.auto_name__12",
+          "_type": "radios",
+          "items": [
+            {
+              "_id": "page.child_details_2--fieldset--radios.auto_name__12--radio.auto_value__6",
+              "_type": "radio",
+              "label": "Yes",
+              "value": "is_child_dependant_yes"
+            },
+            {
+              "_id": "page.child_details_2--fieldset--radios.auto_name__12--radio.auto_value__7",
+              "_type": "radio",
+              "label": "No",
+              "value": "is_child_dependant"
+            }
+          ],
+          "legend": "Is the child in full-time education or otherwise dependent on the family?",
+          "name": "is_child_dependant"
+        },
+        {
+          "_id": "page.child_details_2--fieldset--radios.auto_name__10",
+          "_type": "radios",
+          "items": [
+            {
+              "_id": "page.child_details_2--fieldset--radios.auto_name__10--radio.auto_value__6",
+              "_type": "radio",
+              "label": "Applicant",
+              "value": "child_living_with_applicant"
+            },
+            {
+              "_id": "page.child_details_2--fieldset--radios.auto_name__10--radio.auto_value__7",
+              "_type": "radio",
+              "label": "Respondent",
+              "value": "child_living_with_respondent"
+            },
+            {
+              "_id": "page.child_details_2--fieldset--radios.auto_name__10--radio.auto_value__8",
+              "_type": "radio",
+              "conditionalComponent": {
+                "_id": "page.child_details_2--fieldset--radios.auto_name__10--radio.auto_value__8--textarea.auto_name__11",
+                "_type": "textarea",
+                "label": "Give details",
+                "name": "child_living_with_other_details"
+              },
+              "label": "Other",
+              "value": "child_living_with_other"
+            }
+          ],
+          "legend": "Who will the child live with after the final order?",
+          "name": "child_living_with"
+        }
+      ],
+      "legend": "Child",
+      "namespace": "namespace_auto__1",
+      "repeatable": true,
+      "repeatableAdd": "Add another child of the family",
+      "repeatableHeading": "Child Details"
+    }
+  ],
+  "show": {
+    "identifier": "any_children_involved",
+    "operator": "is",
+    "value": "any_children_involved_yes"
+  },
+  "url": "child_details_2"
+}

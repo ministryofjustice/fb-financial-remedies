@@ -19,10 +19,10 @@
             "_id": "page.respondent_future_relationship--radios.auto_name__10--radio.auto_value__6--date.auto_name__10",
             "_type": "date",
             "label": "Date of new marriage",
-            "name": "auto_name__10"
+            "name": "respondent_future_relationship_date_of_marriage"
           },
           "label": "has, at the date of the final order, re-married",
-          "value": "auto_value__6"
+          "value": "respondent_future_relationship_remarried"
         },
         {
           "_id": "page.respondent_future_relationship--radios.auto_name__10--radio.auto_value__7",
@@ -31,16 +31,16 @@
             "_id": "page.respondent_future_relationship--radios.auto_name__10--radio.auto_value__7--date.auto_name__11",
             "_type": "date",
             "label": "Date of new civil partnership",
-            "name": "auto_name__11"
+            "name": "respondent_future_relationship_date_of_partnership"
           },
           "label": "has, at the date of the final order, entered into a civil partnership",
-          "value": "auto_value__7"
+          "value": "respondent_future_relationship_new_civil_partnership"
         },
         {
           "_id": "page.respondent_future_relationship--radios.auto_name__10--radio.auto_value__8",
           "_type": "radio",
           "label": "is cohabiting with a new partner with no plans to marry or enter civil partnership",
-          "value": "auto_value__8"
+          "value": "respondent_future_relationship_cohabiting_no_plans"
         },
         {
           "_id": "page.respondent_future_relationship--radios.auto_name__10--radio.auto_value__9",
@@ -49,19 +49,19 @@
             "_id": "page.respondent_future_relationship--radios.auto_name__10--radio.auto_value__9--date.auto_name__12",
             "_type": "date",
             "label": "Date of proposed marriage or civil partnership",
-            "name": "auto_name__12",
+            "name": "respondent_future_relationship_proposed_date_of_marriage",
             "validation": {
               "required": false
             }
           },
           "label": "intends to marry or enter a civil partnership",
-          "value": "auto_value__9"
+          "value": "respondent_future_relationship_intent_to_marry"
         },
         {
           "_id": "page.respondent_future_relationship--radios.auto_name__10--radio.auto_value__10",
           "_type": "radio",
           "label": "intends to cohabit in the foreseeable future",
-          "value": "auto_value__10"
+          "value": "respondent_future_relationship_intends_to_cohabit"
         }
       ],
       "legend": "What are the respondent’s future relationship plans?",

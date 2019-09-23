@@ -1,0 +1,57 @@
+{
+  "_id": "page.non_pension_order_details",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.non_pension_order_details--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Tick all that apply",
+      "items": [
+        {
+          "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__10",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__10--number.auto_name__11",
+            "_type": "number",
+            "label": "value transferred",
+            "name": "auto_name__11"
+          },
+          "label": "Lump sum order",
+          "name": "auto_name__10"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__12",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__12--number.auto_name__13",
+            "_type": "number",
+            "label": "value transferred",
+            "name": "auto_name__13"
+          },
+          "label": "Property transfer order",
+          "name": "auto_name__12"
+        },
+        {
+          "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__14",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.non_pension_order_details--checkboxes--checkbox.auto_name__14--number.auto_name__15",
+            "_type": "number",
+            "label": "Value of property for the benefit of the applicant",
+            "name": "auto_name__15"
+          },
+          "label": "Property settlement order",
+          "name": "auto_name__14"
+        }
+      ],
+      "legend": "Orders requiring payment/ transfer etc in favour of applicant"
+    },
+    {
+      "_id": "page.non_pension_order_details--checkboxes--2",
+      "_type": "checkboxes",
+      "legend": "Orders requiring payment/ transfer etc in favour of applicant"
+    }
+  ],
+  "heading": "Orders in relation to non-pension capital",
+  "url": "non_pension_order_details"
+}
