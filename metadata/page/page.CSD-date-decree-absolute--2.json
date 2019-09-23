@@ -1,0 +1,18 @@
+{
+  "_id": "page.CSD-date-decree-absolute--2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.CSD-date-decree-absolute--2--date.auto_name__6",
+      "_type": "date",
+      "label": "Date of the decree absolute/final order of divorce/ dissolution/ nullity",
+      "name": "auto_name__6"
+    }
+  ],
+  "show": {
+    "identifier": "decree_absolute_pronounced",
+    "operator": "is",
+    "value": "decree_absolute_pronounced_yes"
+  },
+  "url": "CSD-date-decree-absolute"
+}

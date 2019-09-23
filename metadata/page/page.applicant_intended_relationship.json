@@ -1,0 +1,72 @@
+{
+  "_id": "page.applicant_intended_relationship",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.applicant_intended_relationship--radios.auto_name__9",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.applicant_intended_relationship--radios.auto_name__9--radio.auto_value__2",
+          "_type": "radio",
+          "label": "has no intention at present to marry, enter a civil partnership or cohabit",
+          "value": "applicant_future_relationship_no_intention"
+        },
+        {
+          "_id": "page.applicant_intended_relationship--radios.auto_name__9--radio.auto_value__2--2",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.applicant_intended_relationship--radios.auto_name__9--radio.auto_value__2--2--date.auto_name__10",
+            "_type": "date",
+            "label": "Date of new marriage",
+            "name": "applicant_future_relationship_date_of_marriage"
+          },
+          "label": "has, at the date of the final order, re-married",
+          "value": "applicant_future_relationship_has_married"
+        },
+        {
+          "_id": "page.applicant_intended_relationship--radios.auto_name__9--radio.auto_value__2--3",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.applicant_intended_relationship--radios.auto_name__9--radio.auto_value__2--3--date.auto_name__9",
+            "_type": "date",
+            "label": "Date of new civil partnership",
+            "name": "applicant_future_relationship_date_of_new_civil_partnership"
+          },
+          "label": "has, at the date of the final order, entered into a new civil partnership",
+          "value": "auto_value__2"
+        },
+        {
+          "_id": "page.applicant_intended_relationship--radios.auto_name__9--radio.auto_value__3",
+          "_type": "radio",
+          "label": "is cohabiting with a new partner with no plans to marry or enter civil partnership",
+          "value": "applicant_future_relationship_cohabiting_no_plans"
+        },
+        {
+          "_id": "page.applicant_intended_relationship--radios.auto_name__9--radio.auto_value__3--2",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.applicant_intended_relationship--radios.auto_name__9--radio.auto_value__3--2--date.auto_name__9",
+            "_type": "date",
+            "label": "Proposed date of remarriage or new civil partnership",
+            "name": "applicant_future_relationship_proposed_date_remarriage",
+            "validation": {
+              "required": false
+            }
+          },
+          "label": "intends to marry or enter a civil partnership",
+          "value": "auto_value__3"
+        },
+        {
+          "_id": "page.applicant_intended_relationship--radios.auto_name__9--radio.auto_value__4",
+          "_type": "radio",
+          "label": "intends to cohabit in the foreseeable future",
+          "value": "auto_value__4"
+        }
+      ],
+      "legend": "What are the applicant’s future relationship plans?",
+      "name": "applicant_future_relationship"
+    }
+  ],
+  "url": "applicant_intended_relationship"
+}

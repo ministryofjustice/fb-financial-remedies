@@ -1,0 +1,13 @@
+{
+  "_id": "page.CSD-date-of-order",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.CSD-date-of-order--date.auto_name__8",
+      "_type": "date",
+      "label": "Date of order",
+      "name": "auto_name__8"
+    }
+  ],
+  "url": "CSD-date-of-order"
+}

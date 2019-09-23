@@ -1,0 +1,77 @@
+{
+  "_id": "page.how_consent_reached",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.how_consent_reached--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how_consent_reached--checkboxes--checkbox.auto_name__2",
+          "_type": "checkbox",
+          "label": "Discussion between the parties",
+          "name": "consent_reached_discussion"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how_consent_reached--checkboxes--checkbox.auto_name__2--2",
+          "_type": "checkbox",
+          "label": "Negotiation aided by or through solicitors",
+          "name": "consent_reached_solicitors"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how_consent_reached--checkboxes--checkbox.auto_name__2--3",
+          "_type": "checkbox",
+          "label": "Mediation",
+          "name": "consent_reached_mediation"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how_consent_reached--checkboxes--checkbox.auto_name__2--4",
+          "_type": "checkbox",
+          "label": "Collaborative law",
+          "name": "consent_reached_collaborative_law"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how_consent_reached--checkboxes--checkbox.auto_name__2--5",
+          "_type": "checkbox",
+          "label": "Arbitration",
+          "name": "consent_reached_arbitration"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.how_consent_reached--checkboxes--checkbox.auto_name__2--6",
+          "_type": "checkbox",
+          "label": "Other out of court dispute resolution process",
+          "name": "consent_reached_other"
+        }
+      ],
+      "legend": "Please state how the proposed consent order was reached, selecting all applicable options"
+    }
+  ],
+  "show": {
+    "0": {
+      "identifier": "Is_order_by_consent_or_adjudication"
+    },
+    "identifier": "Is_order_by_consent_or_adjudication",
+    "negated": true,
+    "operator": "is",
+    "value": "adjudicated_in_full"
+  },
+  "url": "how_consent_reached"
+}

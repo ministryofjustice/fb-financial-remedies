@@ -1,0 +1,18 @@
+{
+  "_id": "page.CSD_living_together_before_date",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.CSD_living_together_before_date--date.auto_name__3",
+      "_type": "date",
+      "label": "When did the parties start living together?",
+      "name": "auto_name__3"
+    }
+  ],
+  "show": {
+    "identifier": "living_together_first",
+    "operator": "is",
+    "value": "living_together_first_yes"
+  },
+  "url": "csd-living-together-before-date"
+}

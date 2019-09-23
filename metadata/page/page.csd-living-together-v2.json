@@ -1,0 +1,12 @@
+{
+  "_id": "page.csd-living-together-v2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.csd-living-together-v2--date.auto_name__1",
+      "_type": "date",
+      "name": "auto_name__1"
+    }
+  ],
+  "url": "csd-living-together-v2"
+}

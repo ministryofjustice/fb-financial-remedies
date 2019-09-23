@@ -1,0 +1,14 @@
+{
+  "_id": "page.CSD_date_of_separation",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.CSD_date_of_separation--date.auto_name__4",
+      "_type": "date",
+      "label": "On what date was the decree nisi/conditional order of divorce/ dissolution/ nullity or (judicial) separation decree/ order pronounced?",
+      "name": "auto_name__4"
+    }
+  ],
+  "sectionHeading": "date",
+  "url": "csd-date-of-decree-nisi"
+}

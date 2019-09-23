@@ -1,0 +1,12 @@
+{
+  "_id": "page.csd-test-page",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.csd-test-page--checkboxes",
+      "_type": "checkboxes",
+      "legend": "gggfgfg"
+    }
+  ],
+  "url": "csd-test-page"
+}

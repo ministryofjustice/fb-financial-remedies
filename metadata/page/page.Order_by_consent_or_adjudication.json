@@ -1,0 +1,33 @@
+{
+  "_id": "page.Order_by_consent_or_adjudication",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.Order_by_consent_or_adjudication--radios.auto_name__2",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.Order_by_consent_or_adjudication--radios.auto_name__2--radio.auto_value__1",
+          "_type": "radio",
+          "label": "Consent order (in full)",
+          "value": "consent_in_full"
+        },
+        {
+          "_id": "page.Order_by_consent_or_adjudication--radios.auto_name__2--radio.auto_value__1--2",
+          "_type": "radio",
+          "label": "Partly consent order, partly adjudicated",
+          "value": "part_consent_part_adjudicated"
+        },
+        {
+          "_id": "page.Order_by_consent_or_adjudication--radios.auto_name__2--radio.auto_value__1--3",
+          "_type": "radio",
+          "label": "Adjudicated (in full)",
+          "value": "adjudicated_in_full"
+        }
+      ],
+      "legend": "Is the order made by consent or by adjudication?",
+      "name": "Is_order_by_consent_or_adjudication"
+    }
+  ],
+  "url": "Order_by_consent_or_adjudication"
+}

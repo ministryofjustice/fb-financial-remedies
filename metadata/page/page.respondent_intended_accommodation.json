@@ -1,0 +1,57 @@
+{
+  "_id": "page.respondent_intended_accommodation",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.respondent_intended_accommodation--radios.auto_name__9",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.respondent_intended_accommodation--radios.auto_name__9--radio.auto_value__5",
+          "_type": "radio",
+          "label": "Owner-occupier with mortgage",
+          "value": "respondent_intended_accomodation_owned_with_mortgage"
+        },
+        {
+          "_id": "page.respondent_intended_accommodation--radios.auto_name__9--radio.auto_value__5--2",
+          "_type": "radio",
+          "label": "Owner-occupier without mortgage",
+          "value": "respondent_intended_accommodation_owner_without_mortgage"
+        },
+        {
+          "_id": "page.respondent_intended_accommodation--radios.auto_name__9--radio.auto_value__5--3",
+          "_type": "radio",
+          "label": "Living with an owner-occupier",
+          "value": "respondent_intended_accomodation_living_with_owner"
+        },
+        {
+          "_id": "page.respondent_intended_accommodation--radios.auto_name__9--radio.auto_value__6",
+          "_type": "radio",
+          "label": "Tenant of rental property",
+          "value": "respondent_intended_accomodation_tenant"
+        },
+        {
+          "_id": "page.respondent_intended_accommodation--radios.auto_name__9--radio.auto_value__7",
+          "_type": "radio",
+          "label": "Living with tenant of rental property",
+          "value": "respondent_intended_accomodation_living_with_tenant"
+        },
+        {
+          "_id": "page.respondent_intended_accommodation--radios.auto_name__9--radio.auto_value__8",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.respondent_intended_accommodation--radios.auto_name__9--radio.auto_value__8--textarea.auto_name__10",
+            "_type": "textarea",
+            "label": "Please give details",
+            "name": "respondent_intended_accomodation_other_details"
+          },
+          "label": "Other",
+          "value": "respondent_intended_accomodation_other"
+        }
+      ],
+      "legend": "What is the intended nature of the respondent’s accommodation after the final order has been implemented?",
+      "name": "auto_name__9"
+    }
+  ],
+  "url": "respondent_intended_accommodation"
+}

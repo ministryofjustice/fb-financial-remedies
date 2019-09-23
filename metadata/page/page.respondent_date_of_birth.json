@@ -1,0 +1,13 @@
+{
+  "_id": "page.respondent_date_of_birth",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.respondent_date_of_birth--date.auto_name__5",
+      "_type": "date",
+      "label": "What is the respondent’s date of birth?",
+      "name": "auto_name__5"
+    }
+  ],
+  "url": "respondent_date_of_birth"
+}

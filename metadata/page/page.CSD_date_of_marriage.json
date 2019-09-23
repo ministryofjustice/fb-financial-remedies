@@ -1,0 +1,13 @@
+{
+  "_id": "page.CSD_date_of_marriage",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.CSD_date_of_marriage--date.auto_name__1",
+      "_type": "date",
+      "label": "Date of marriage or civil partnership",
+      "name": "date_of_marriage"
+    }
+  ],
+  "url": "csd-date-of-marriage"
+}
