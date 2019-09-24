@@ -29,7 +29,9 @@
     "page.non_pension_order_details",
     "page.are_there_pensions",
     "page.orders_relating_to_pensions",
-    "page.orders_relating_to_income"
+    "page.orders_relating_to_income",
+    "page.income_order_in_favour_of_applicant",
+    "page.periodic_payments_to_applicant"
   ],
   "url": "/"
 }

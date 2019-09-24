@@ -1,0 +1,72 @@
+{
+  "_id": "page.periodic_payments_to_applicant",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.periodic_payments_to_applicant--radios.auto_name__11",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.periodic_payments_to_applicant--radios.auto_name__11--radio.auto_value__8",
+          "_type": "radio",
+          "label": "Fixed term with no extension",
+          "value": "auto_value__8"
+        },
+        {
+          "_id": "page.periodic_payments_to_applicant--radios.auto_name__11--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Extendable term",
+          "value": "auto_value__9"
+        },
+        {
+          "_id": "page.periodic_payments_to_applicant--radios.auto_name__11--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Joint lives",
+          "value": "auto_value__10"
+        }
+      ],
+      "legend": "Duration of periodical payments order in favour of applicant",
+      "name": "auto_name__11"
+    },
+    {
+      "_id": "page.periodic_payments_to_applicant--radios.auto_name__13",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.periodic_payments_to_applicant--radios.auto_name__13--radio.auto_value__11",
+          "_type": "radio",
+          "label": "Weekly",
+          "value": "auto_value__11"
+        },
+        {
+          "_id": "page.periodic_payments_to_applicant--radios.auto_name__13--radio.auto_value__12",
+          "_type": "radio",
+          "label": "Every 2 weeks",
+          "value": "auto_value__12"
+        },
+        {
+          "_id": "page.periodic_payments_to_applicant--radios.auto_name__13--radio.auto_value__13",
+          "_type": "radio",
+          "label": "Monthly",
+          "value": "auto_value__13"
+        },
+        {
+          "_id": "page.periodic_payments_to_applicant--radios.auto_name__13--radio.auto_value__14",
+          "_type": "radio",
+          "label": "Yearly",
+          "value": "auto_value__14"
+        }
+      ],
+      "legend": "Frequency of payments",
+      "name": "auto_name__13"
+    },
+    {
+      "_id": "page.periodic_payments_to_applicant--number.auto_name__12",
+      "_type": "number",
+      "label": "Amount paid each period",
+      "name": "auto_name__12"
+    }
+  ],
+  "heading": "Periodical payments to the applicant paid by the respondent",
+  "url": "periodic_payments_to_applicant"
+}

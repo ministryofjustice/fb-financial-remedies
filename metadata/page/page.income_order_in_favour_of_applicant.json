@@ -1,0 +1,27 @@
+{
+  "_id": "page.income_order_in_favour_of_applicant",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.income_order_in_favour_of_applicant--radios.auto_name__10",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.income_order_in_favour_of_applicant--radios.auto_name__10--radio.auto_value__6",
+          "_type": "radio",
+          "label": "Dismissal of any periodical payments application (clean break)",
+          "value": "auto_value__6"
+        },
+        {
+          "_id": "page.income_order_in_favour_of_applicant--radios.auto_name__10--radio.auto_value__7",
+          "_type": "radio",
+          "label": "Periodical payments order",
+          "value": "auto_value__7"
+        }
+      ],
+      "legend": "Income orders made in favour of applicant to be paid by respondent",
+      "name": "auto_name__10"
+    }
+  ],
+  "url": "income_order_in_favour_of_applicant"
+}
