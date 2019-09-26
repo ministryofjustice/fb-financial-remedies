@@ -1,0 +1,81 @@
+{
+  "_id": "page.reasons_justifying_clean_break_order",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.reasons_justifying_clean_break_order--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Tick all that apply",
+      "items": [
+        {
+          "_id": "page.reasons_justifying_clean_break_order--checkboxes--checkbox.auto_name__11",
+          "_type": "checkbox",
+          "label": "Parties both self-supporting or on state support) at appropriate standard of living",
+          "name": "clean_break_parties_self_supporting"
+        },
+        {
+          "_id": "page.reasons_justifying_clean_break_order--checkboxes--checkbox.auto_name__15",
+          "_type": "checkbox",
+          "label": "Short marriage with no children",
+          "name": "clean_break_short_marriage"
+        },
+        {
+          "_id": "page.reasons_justifying_clean_break_order--checkboxes--checkbox.auto_name__16",
+          "_type": "checkbox",
+          "label": "Income-related needs dealt with by orders in relation to capital",
+          "name": "clean_break_dealt_with_by_capital"
+        },
+        {
+          "_id": "page.reasons_justifying_clean_break_order--checkboxes--checkbox.auto_name__17",
+          "_type": "checkbox",
+          "label": "Income-related needs dealt with by pension orders",
+          "name": "clean_break_dealt_with_by_pension"
+        },
+        {
+          "_id": "page.reasons_justifying_clean_break_order--checkboxes--checkbox.auto_name__18",
+          "_type": "checkbox",
+          "label": "Insufficient free income to permit spousal maintenance payments",
+          "name": "clean_break_insufficient_income"
+        },
+        {
+          "_id": "page.reasons_justifying_clean_break_order--checkboxes--checkbox.auto_name__19",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.reasons_justifying_clean_break_order--checkboxes--checkbox.auto_name__19--textarea.auto_name__20",
+            "_type": "textarea",
+            "label": "Give reason",
+            "name": "clean_break_other_details"
+          },
+          "label": "Other",
+          "name": "clean_break_other"
+        }
+      ],
+      "legend": "Reasons justifying clean break order"
+    }
+  ],
+  "show": {
+    "any": [
+      {
+        "identifier": "are_there_income_orders",
+        "operator": "is",
+        "value": "are_there_income_orders_no"
+      },
+      {
+        "all": [
+          {
+            "identifier": "auto_name__10",
+            "operator": "is",
+            "value": "auto_value__6"
+          },
+          {
+            "identifier": "auto_name__14",
+            "operator": "is",
+            "value": "auto_value__15"
+          }
+        ]
+      }
+    ],
+    "conditionsType": "any"
+  },
+  "url": "reasons_justifying_clean_break_order"
+}

@@ -9,24 +9,36 @@
         {
           "_id": "page.periodic_payments_to_applicant--radios.auto_name__11--radio.auto_value__8",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.periodic_payments_to_applicant--radios.auto_name__11--radio.auto_value__8--date.auto_name__16",
+            "_type": "date",
+            "label": "Date of last payment",
+            "name": "duration_of_periodic_payments_to_applicant_last_payment_date"
+          },
           "label": "Fixed term with no extension",
-          "value": "auto_value__8"
+          "value": "duration_of_periodic_payments_to_applicant_fixed_no_extension"
         },
         {
           "_id": "page.periodic_payments_to_applicant--radios.auto_name__11--radio.auto_value__9",
           "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.periodic_payments_to_applicant--radios.auto_name__11--radio.auto_value__9--date.auto_name__17",
+            "_type": "date",
+            "label": "Date of last currently scheduled payment",
+            "name": "duration_of_periodic_payments_to_applicant_last_scheduled_pay_date"
+          },
           "label": "Extendable term",
-          "value": "auto_value__9"
+          "value": "duration_of_periodic_payments_to_applicant_extendable_term"
         },
         {
           "_id": "page.periodic_payments_to_applicant--radios.auto_name__11--radio.auto_value__10",
           "_type": "radio",
           "label": "Joint lives",
-          "value": "auto_value__10"
+          "value": "duration_of_periodic_payments_to_applicant_joint_lives"
         }
       ],
-      "legend": "Duration of periodical payments order in favour of applicant",
-      "name": "auto_name__11"
+      "legend": "Duration of periodic payments order in favour of applicant",
+      "name": "duration_of_periodic_payments_to_applicant"
     },
     {
       "_id": "page.periodic_payments_to_applicant--radios.auto_name__13",
@@ -67,6 +79,20 @@
       "name": "auto_name__12"
     }
   ],
-  "heading": "Periodical payments to the applicant paid by the respondent",
+  "heading": "Periodic payments to the applicant paid by the respondent",
+  "show": {
+    "all": [
+      {
+        "identifier": "are_there_income_orders",
+        "operator": "is",
+        "value": "are_there_income_orders_yes"
+      },
+      {
+        "identifier": "auto_name__10",
+        "operator": "is",
+        "value": "auto_value__7"
+      }
+    ]
+  },
   "url": "periodic_payments_to_applicant"
 }

@@ -1,0 +1,137 @@
+{
+  "_id": "page.reasons_justifying_periodic_payments_order",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.reasons_justifying_periodic_payments_order--checkboxes",
+      "_type": "checkboxes",
+      "hint": "Select all that apply",
+      "items": [
+        {
+          "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__11",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__11--checkboxes",
+            "_type": "checkboxes",
+            "items": [
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__11--checkboxes--checkbox.auto_name__20",
+                "_type": "checkbox",
+                "label": "continuing child-care obligations",
+                "name": "not_self_supporting_continuing_childcare"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__11--checkboxes--checkbox.auto_name__20--2",
+                "_type": "checkbox",
+                "label": "continuing impact of past child-care obligations",
+                "name": "not_self_supporting_past_childcare_impact"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__11--checkboxes--checkbox.auto_name__20--3",
+                "_type": "checkbox",
+                "label": "other continuing or past caring obligations to family members",
+                "name": "not_self_supporting_other_caring_obligations"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__11--checkboxes--checkbox.auto_name__20--4",
+                "_type": "checkbox",
+                "label": "having reduced or given up paid employment for other reasons related to the marriage",
+                "name": "not_self_supporting_given_up_employment"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__11--checkboxes--checkbox.auto_name__20--5",
+                "_type": "checkbox",
+                "label": "ill-health or disability",
+                "name": "not_self_supporting_ill_health"
+              },
+              {
+                "$component": true,
+                "$definition": true,
+                "$option": true,
+                "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__11--checkboxes--checkbox.auto_name__20--6",
+                "_type": "checkbox",
+                "label": "lack of own pension fund",
+                "name": "not_self_supporting_no_pension"
+              }
+            ],
+            "legend": "Reason why recipient not capable of supporting themselves"
+          },
+          "label": "Recipient not capable of being self-supporting in short/medium/long term",
+          "name": "auto_name__11"
+        },
+        {
+          "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__15",
+          "_type": "checkbox",
+          "label": "Recipient expected to become self-supporting in medium/long term",
+          "name": "auto_name__15"
+        },
+        {
+          "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__16",
+          "_type": "checkbox",
+          "label": "Nominal order made in recognition of ongoing risk to recipient’s earning capacity, e.g. owing to child-care commitments",
+          "name": "auto_name__16"
+        },
+        {
+          "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__17",
+          "_type": "checkbox",
+          "label": "Payments bridging period prior to pension becoming available",
+          "name": "auto_name__17"
+        },
+        {
+          "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__18",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.reasons_justifying_periodic_payments_order--checkboxes--checkbox.auto_name__18--textarea.auto_name__19",
+            "_type": "textarea",
+            "label": "Give details",
+            "name": "auto_name__19"
+          },
+          "label": "Other",
+          "name": "auto_name__18"
+        }
+      ],
+      "legend": "Reasons justifying periodic payments order"
+    }
+  ],
+  "show": {
+    "all": [
+      {
+        "identifier": "are_there_income_orders",
+        "operator": "is",
+        "value": "are_there_income_orders_yes"
+      },
+      {
+        "conditionsType": "exactly",
+        "exactly": [
+          {
+            "identifier": "auto_name__10",
+            "operator": "is",
+            "value": "auto_value__7"
+          },
+          {
+            "identifier": "auto_name__14",
+            "operator": "is",
+            "value": "auto_value__16"
+          }
+        ]
+      }
+    ],
+    "conditionsType": "all"
+  },
+  "url": "reasons_justifying_periodic_payments_order"
+}

@@ -1,0 +1,98 @@
+{
+  "_id": "page.periodic_payments_to_respondent",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.periodic_payments_to_respondent--radios.auto_name__15",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.periodic_payments_to_respondent--radios.auto_name__15--radio.auto_value__17",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.periodic_payments_to_respondent--radios.auto_name__15--radio.auto_value__17--date.auto_name__18",
+            "_type": "date",
+            "label": "Date of last payment",
+            "name": "duration_of_periodic_payments_to_respondent_last_payment_date"
+          },
+          "label": "Fixed term with no extension",
+          "value": "duration_of_periodic_payments_to_respondent_fixed_term"
+        },
+        {
+          "_id": "page.periodic_payments_to_respondent--radios.auto_name__15--radio.auto_value__18",
+          "_type": "radio",
+          "conditionalComponent": {
+            "_id": "page.periodic_payments_to_respondent--radios.auto_name__15--radio.auto_value__18--date.auto_name__19",
+            "_type": "date",
+            "label": "Date of last currently scheduled payment",
+            "name": "duration_of_periodic_payments_to_respondent_last_scheduled_pay_date"
+          },
+          "label": "Extendable term",
+          "value": "duration_of_periodic_payments_to_respondent_extendable_term"
+        },
+        {
+          "_id": "page.periodic_payments_to_respondent--radios.auto_name__15--radio.auto_value__19",
+          "_type": "radio",
+          "label": "Joint lives",
+          "value": "duration_of_periodic_payments_to_respondent_joint_lives"
+        }
+      ],
+      "legend": "Duration of periodic payments order in favour of respondent",
+      "name": "duration_of_periodic_payments_to_respondent"
+    },
+    {
+      "_id": "page.periodic_payments_to_respondent--radios.auto_name__11",
+      "_type": "radios",
+      "items": [
+        {
+          "_id": "page.periodic_payments_to_respondent--radios.auto_name__11--radio.auto_value__8",
+          "_type": "radio",
+          "label": "Weekly",
+          "value": "frequency_of_periodic_payments_to_respondent_weekly"
+        },
+        {
+          "_id": "page.periodic_payments_to_respondent--radios.auto_name__11--radio.auto_value__9",
+          "_type": "radio",
+          "label": "Every 2 weeks",
+          "value": "frequency_of_periodic_payments_to_respondent_fortnightly"
+        },
+        {
+          "_id": "page.periodic_payments_to_respondent--radios.auto_name__11--radio.auto_value__10",
+          "_type": "radio",
+          "label": "Monthly",
+          "value": "frequency_of_periodic_payments_to_respondent_monthly"
+        },
+        {
+          "_id": "page.periodic_payments_to_respondent--radios.auto_name__11--radio.auto_value__17",
+          "_type": "radio",
+          "label": "Yearly",
+          "value": "frequency_of_periodic_payments_to_respondent_yearly"
+        }
+      ],
+      "legend": "Frequency of payments",
+      "name": "frequency_of_periodic_payments_to_respondent"
+    },
+    {
+      "_id": "page.periodic_payments_to_respondent--number.auto_name__15",
+      "_type": "number",
+      "label": "Amount paid each period",
+      "name": "Amount_of_each_payment_to_respondent"
+    }
+  ],
+  "heading": "Periodic payments to the respondent paid by the applicant",
+  "show": {
+    "all": [
+      {
+        "identifier": "are_there_income_orders",
+        "operator": "is",
+        "value": "are_there_income_orders_yes"
+      },
+      {
+        "identifier": "auto_name__14",
+        "operator": "is",
+        "value": "auto_value__16"
+      }
+    ]
+  },
+  "url": "periodic_payments_to_respondent"
+}

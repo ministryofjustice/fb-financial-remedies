@@ -9,13 +9,13 @@
         {
           "_id": "page.income_order_in_favour_of_applicant--radios.auto_name__10--radio.auto_value__6",
           "_type": "radio",
-          "label": "Dismissal of any periodical payments application (clean break)",
+          "label": "Dismissal of any periodic payments application (clean break)",
           "value": "auto_value__6"
         },
         {
           "_id": "page.income_order_in_favour_of_applicant--radios.auto_name__10--radio.auto_value__7",
           "_type": "radio",
-          "label": "Periodical payments order",
+          "label": "Periodic payments order",
           "value": "auto_value__7"
         }
       ],
@@ -23,5 +23,10 @@
       "name": "auto_name__10"
     }
   ],
+  "show": {
+    "identifier": "are_there_income_orders",
+    "operator": "is",
+    "value": "are_there_income_orders_yes"
+  },
   "url": "income_order_in_favour_of_applicant"
 }

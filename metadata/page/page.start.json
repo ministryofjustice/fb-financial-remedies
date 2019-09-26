@@ -31,7 +31,12 @@
     "page.orders_relating_to_pensions",
     "page.orders_relating_to_income",
     "page.income_order_in_favour_of_applicant",
-    "page.periodic_payments_to_applicant"
+    "page.periodic_payments_to_applicant",
+    "page.income_order_in_favour_of_respondent",
+    "page.periodic_payments_to_respondent",
+    "page.reasons_justifying_clean_break_order",
+    "page.reasons_justifying_periodic_payments_order",
+    "page.orders_for_children"
   ],
   "url": "/"
 }
