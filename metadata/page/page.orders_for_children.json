@@ -1,5 +1,52 @@
 {
   "_id": "page.orders_for_children",
   "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.orders_for_children--radios.auto_name__20",
+      "_type": "radios",
+      "hint": "Select one option",
+      "items": [
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.orders_for_children--radios.auto_name__20--radio.auto_value__9",
+          "_type": "radio",
+          "label": "None – child support dealt with by private family-based arrangement",
+          "value": "auto_value__9"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.orders_for_children--radios.auto_name__20--radio.auto_value__10",
+          "_type": "radio",
+          "label": "None – no arrangement for child support",
+          "value": "auto_value__10"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.orders_for_children--radios.auto_name__20--radio.auto_value__17",
+          "_type": "radio",
+          "label": "Consent order for child maintenance",
+          "value": "auto_value__17"
+        },
+        {
+          "$component": true,
+          "$definition": true,
+          "$option": true,
+          "_id": "page.orders_for_children--radios.auto_name__20--radio.auto_value__18",
+          "_type": "radio",
+          "label": "Other court order related to income needs of child, including disability costs, educational costs (e.g. school fees)",
+          "value": "auto_value__18"
+        }
+      ],
+      "legend": "What orders or other arrangements have been made for the benefit of dependent children of the family?",
+      "name": "auto_name__20"
+    }
+  ],
   "url": "orders_for_children"
 }

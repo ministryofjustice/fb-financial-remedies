@@ -1,0 +1,33 @@
+{
+  "_id": "page.consent_order_for_child",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.consent_order_for_child--number.auto_name__26",
+      "_type": "number",
+      "label": "Monthly amount payable",
+      "name": "consent_child_maintenance_monthly_amount_payable"
+    },
+    {
+      "_id": "page.consent_order_for_child--date.auto_name__27",
+      "_type": "date",
+      "label": "Expected date of last payment for child maintenance",
+      "name": "consent_child_maintenance_last_payment_date"
+    }
+  ],
+  "heading": "Details of consent order for child maintenance",
+  "show": {
+    "all": [
+      {
+        "identifier": "any_children_involved",
+        "operator": "is",
+        "value": "any_children_involved_yes"
+      },
+      {
+        "identifier": "auto_name__22",
+        "operator": "defined"
+      }
+    ]
+  },
+  "url": "consent_order_for_child"
+}

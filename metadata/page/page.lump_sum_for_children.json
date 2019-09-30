@@ -1,0 +1,26 @@
+{
+  "_id": "page.lump_sum_for_children",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.lump_sum_for_children--number.auto_name__26",
+      "_type": "number",
+      "label": "Value of lump sum or other capital order for benefit of child",
+      "name": "child_support_lump_sum_value"
+    }
+  ],
+  "show": {
+    "all": [
+      {
+        "identifier": "any_children_involved",
+        "operator": "is",
+        "value": "any_children_involved_yes"
+      },
+      {
+        "identifier": "auto_name__24",
+        "operator": "defined"
+      }
+    ]
+  },
+  "url": "lump_sum_for_children"
+}

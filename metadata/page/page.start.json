@@ -36,7 +36,11 @@
     "page.periodic_payments_to_respondent",
     "page.reasons_justifying_clean_break_order",
     "page.reasons_justifying_periodic_payments_order",
-    "page.orders_for_children"
+    "page.orders_for_children_v2",
+    "page.consent_order_for_child",
+    "page.child_support_other_court_order",
+    "page.lump_sum_for_children",
+    "page.financial_remedy_summary_check_answers"
   ],
   "url": "/"
 }

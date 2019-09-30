@@ -1,0 +1,69 @@
+{
+  "_id": "page.orders_for_children_v2",
+  "_type": "page.singlequestion",
+  "components": [
+    {
+      "_id": "page.orders_for_children_v2--checkboxes",
+      "_type": "checkboxes",
+      "items": [
+        {
+          "_id": "page.orders_for_children_v2--checkboxes--checkbox.auto_name__21",
+          "_type": "checkbox",
+          "conditionalComponent": {
+            "_id": "page.orders_for_children_v2--checkboxes--checkbox.auto_name__21--radios.auto_name__25",
+            "_type": "radios",
+            "items": [
+              {
+                "_id": "page.orders_for_children_v2--checkboxes--checkbox.auto_name__21--radios.auto_name__25--radio.auto_value__8",
+                "_type": "radio",
+                "label": "child support dealt with by CMS",
+                "value": "no_order_dealt_with_by_CMS"
+              },
+              {
+                "_id": "page.orders_for_children_v2--checkboxes--checkbox.auto_name__21--radios.auto_name__25--radio.auto_value__8--2",
+                "_type": "radio",
+                "label": "child support dealt with by private family-based arrangement",
+                "value": "no_child_order_private_family_arrangement"
+              },
+              {
+                "_id": "page.orders_for_children_v2--checkboxes--checkbox.auto_name__21--radios.auto_name__25--radio.auto_value__8--3",
+                "_type": "radio",
+                "label": "no arrangement for child support",
+                "value": "no_child_order_no_arrangement"
+              }
+            ],
+            "legend": "Reason why no order for the children was made",
+            "name": "auto_name__25"
+          },
+          "label": "None",
+          "name": "auto_name__21"
+        },
+        {
+          "_id": "page.orders_for_children_v2--checkboxes--checkbox.auto_name__22",
+          "_type": "checkbox",
+          "label": "Consent order for child maintenance",
+          "name": "auto_name__22"
+        },
+        {
+          "_id": "page.orders_for_children_v2--checkboxes--checkbox.auto_name__23",
+          "_type": "checkbox",
+          "label": "Other court order related to income needs of child, including disability costs, educational costs (e.g. school fees)",
+          "name": "auto_name__23"
+        },
+        {
+          "_id": "page.orders_for_children_v2--checkboxes--checkbox.auto_name__24",
+          "_type": "checkbox",
+          "label": "Lump sum or other capital order for benefit of child",
+          "name": "auto_name__24"
+        }
+      ],
+      "legend": "What orders or other arrangements have been made for the benefit of dependent children of the family?"
+    }
+  ],
+  "show": {
+    "identifier": "any_children_involved",
+    "operator": "is",
+    "value": "any_children_involved_yes"
+  },
+  "url": "orders_for_children_v2"
+}
