@@ -55,7 +55,7 @@
       "_id": "page.applicant_finances_before_order--number.auto_name__18",
       "_type": "number",
       "hint": "Enter a positive value(+) if paid by the respondent to the applicant and a negative value (-) if paid by the applicant to the respondent",
-      "label": "Other monthly periodical payments paid or received (other than child support)",
+      "label": "Other monthly periodic payments paid or received (other than child support)",
       "name": "applicant_before_order_other_periodic_payments"
     },
     {

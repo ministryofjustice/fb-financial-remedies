@@ -1,0 +1,69 @@
+{
+  "_id": "page.applicant_finances_after_order",
+  "_type": "page.form",
+  "components": [
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__26",
+      "_type": "number",
+      "label": "property value (net of any mortgage borrowing(s) or other debts secured against the property)",
+      "name": "applicant_after_order_property"
+    },
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__27",
+      "_type": "number",
+      "label": "Value of other capital, not held in a pension fund (e.g. savings, investments, shares money in bank accounts etc.)",
+      "name": "applicant_after_order_other_capital"
+    },
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__28",
+      "_type": "number",
+      "label": "Debts (e.g. personal loans, credit cards or bank overdrafts), excluding mortgages and other debts that are secured against property",
+      "name": "applicant_after_order_debts"
+    },
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__29",
+      "_type": "number",
+      "label": "Cash Equivalent value of pensions (excluding the basic/New State pension, but including the Additional State Pension)",
+      "name": "applicant_after_order_pensions"
+    },
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__30",
+      "_type": "number",
+      "label": "Monthly earned income (net of tax and NI contributions)",
+      "name": "applicant_after_order_earned_income"
+    },
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__31",
+      "_type": "number",
+      "label": "Monthly net investment income",
+      "name": "applicant_after_order_investment_income"
+    },
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__32",
+      "_type": "number",
+      "label": "Monthly state benefits",
+      "name": "applicant_after_order_state_benefits"
+    },
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__33",
+      "_type": "number",
+      "hint": "Enter a positive value(+) if paid by the respondent to the applicant and a negative value (-) if paid by the applicant to the respondent",
+      "label": "Monthly child support, paid or received",
+      "name": "applicant_after_order_child_support"
+    },
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__34",
+      "_type": "number",
+      "label": "Other monthly periodic payments paid or received (other than child support)",
+      "name": "applicant_after_order_other_periodic"
+    },
+    {
+      "_id": "page.applicant_finances_after_order--number.auto_name__35",
+      "_type": "number",
+      "label": "Any other monthly income",
+      "name": "applicant_after_order_other_income"
+    }
+  ],
+  "heading": "Applicant finances after the order",
+  "url": "applicant_finances_after_order"
+}

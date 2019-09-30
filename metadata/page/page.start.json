@@ -40,6 +40,8 @@
     "page.consent_order_for_child",
     "page.child_support_other_court_order",
     "page.lump_sum_for_children",
+    "page.applicant_finances_after_order",
+    "page.respondent_finances_after_order",
     "page.financial_remedy_summary_check_answers"
   ],
   "url": "/"

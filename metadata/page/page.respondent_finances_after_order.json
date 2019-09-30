@@ -1,70 +1,70 @@
 {
-  "_id": "page.respondent_finances_before_order",
+  "_id": "page.respondent_finances_after_order",
   "_type": "page.form",
   "components": [
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__10",
+      "_id": "page.respondent_finances_after_order--number.auto_name__36",
       "_type": "number",
       "label": "Property value (net of any mortgage borrowing(s) or other debts secured against the property)",
-      "name": "respondent_before_order_property_value"
+      "name": "respondent_after_order_property"
     },
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__11",
+      "_id": "page.respondent_finances_after_order--number.auto_name__37",
       "_type": "number",
       "label": "Other capital, not held in a pension fund (e.g. savings, investments, shares money in bank accounts etc.)",
-      "name": "respondent_before_order_capital"
+      "name": "respondent_after_order_other_capital"
     },
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__12",
+      "_id": "page.respondent_finances_after_order--number.auto_name__38",
       "_type": "number",
       "label": "Debts (e.g. personal loans, credit cards or bank overdrafts), excluding mortgages and other debts that are secured against property",
-      "name": "respondent_before_order_debts"
+      "name": "respondent_after_order_debts"
     },
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__13",
+      "_id": "page.respondent_finances_after_order--number.auto_name__39",
       "_type": "number",
       "label": "Cash Equivalent value of pensions (excluding the basic/New State pension, but including the Additional State Pension)",
-      "name": "respondent_before_order_pensions"
+      "name": "respondent_after_order_pension"
     },
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__14",
+      "_id": "page.respondent_finances_after_order--number.auto_name__40",
       "_type": "number",
       "label": "Monthly earned income (net of tax and NI contributions)",
-      "name": "respondent_before_order_earned_income"
+      "name": "respondent_after_order_earned_income"
     },
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__15",
+      "_id": "page.respondent_finances_after_order--number.auto_name__41",
       "_type": "number",
       "label": "Monthly net investment income",
-      "name": "respondent_before_order_investment_income"
+      "name": "respondent_after_order_investment_income"
     },
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__16",
+      "_id": "page.respondent_finances_after_order--number.auto_name__42",
       "_type": "number",
       "label": "Monthly state benefits",
-      "name": "respondent_before_order_state_benefits"
+      "name": "respondent_after_order_state_benefits"
     },
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__17",
+      "_id": "page.respondent_finances_after_order--number.auto_name__43",
       "_type": "number",
       "hint": "Enter a positive value(+) if paid by the applicant to the respondent and a negative value (-) if paid by the respondent to the applicant",
       "label": "Monthly child support paid or received",
-      "name": "respondent_before_order_child_support"
+      "name": "respondent_after_order_child_support"
     },
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__18",
+      "_id": "page.respondent_finances_after_order--number.auto_name__44",
       "_type": "number",
       "hint": "Enter a positive value(+) if paid by the applicant to the respondent and a negative value (-) if paid by the respondent to the applicant",
-      "label": "Other monthly periodical payments paid or received",
-      "name": "respondent_before_order_periodic_payments"
+      "label": "Other monthly periodic payments paid or received (other than child support)",
+      "name": "respondent_after_order_other_periodic"
     },
     {
-      "_id": "page.respondent_finances_before_order--number.auto_name__19",
+      "_id": "page.respondent_finances_after_order--number.auto_name__45",
       "_type": "number",
       "label": "Any other monthly income",
-      "name": "respondent_before_order_other"
+      "name": "respondent_after_order_other_income"
     }
   ],
-  "heading": "Respondent finances before order",
-  "url": "respondent_finances_before_order"
+  "heading": "Respondent finances after order",
+  "url": "respondent_finances_after_order"
 }
